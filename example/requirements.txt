@@ -1,0 +1,5 @@
+django
+django-fluent-contents
+django-fluent-pages
+twitter-text-py
+south
