@@ -42,7 +42,7 @@ Make sure that all plugin media files are exposed by django-fluent-contents_:
 
 .. code-block:: html+django
 
-    {% load frontend_contents_tags %}
+    {% load fluent_contents_tags %}
 
     {% render_content_items_media %}
 
