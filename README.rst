@@ -67,7 +67,7 @@ HTML code
 ~~~~~~~~~
 
 If needed, the HTML code can be overwritten by redefining
-``fluentcms_twitterfeed/recent_entries.html`` or ``fluentcms_twitterfeed/search.html``.
+``fluentcms_twitterfeed/recent_entries.html`` add / or ``fluentcms_twitterfeed/search.html``.
 
 Contributing
 ------------
