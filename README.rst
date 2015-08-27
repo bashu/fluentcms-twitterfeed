@@ -1,7 +1,7 @@
 fluentcms-twitterfeed
 =====================
 
-Twitter feed widget for django-fluent-contents 
+Twitter feed widget for django-fluent-contents_
 
 Installation
 ============
