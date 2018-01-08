@@ -1,4 +1,5 @@
-django
+django<2.0
+django-slug-preview
 django-fluent-contents
 django-fluent-pages
 twitter-text-py

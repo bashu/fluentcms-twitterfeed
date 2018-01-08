@@ -6,9 +6,6 @@ Twitter feed widget for django-fluent-contents_
 .. image:: https://img.shields.io/pypi/v/fluentcms-twitterfeed.svg
     :target: https://pypi.python.org/pypi/fluentcms-twitterfeed/
 
-.. image:: https://img.shields.io/pypi/dm/fluentcms-twitterfeed.svg
-    :target: https://pypi.python.org/pypi/fluentcms-twitterfeed/
-
 .. image:: https://img.shields.io/github/license/bashu/fluentcms-twitterfeed.svg
     :target: https://pypi.python.org/pypi/fluentcms-twitterfeed/
 
