@@ -1,5 +1,5 @@
 django<2.0
-django-slug-preview
+django-any-urlfield
 django-fluent-contents
 django-fluent-pages
 twitter-text-py
