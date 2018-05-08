@@ -1,6 +1,7 @@
 django<2.0
 django-any-urlfield
-django-fluent-contents
-django-fluent-pages
-twitter-text-py
+django-fluent-contents<2.0
+django-fluent-pages<2.0
+twitter-text>2.0
+pillow<5.0
 south
