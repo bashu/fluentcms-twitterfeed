@@ -22,11 +22,6 @@ class TwitterRecentEntriesItem(ContentItem):
     )
     amount = models.PositiveSmallIntegerField(_("number of results"), default=5)
 
-    widget_id = models.CharField(_("widget id"), max_length=75,
-        help_text=_("See <a href='https://twitter.com/settings/widgets' target='_blank'>"
-                    "https://twitter.com/settings/widgets</a> on how to obtain one."),
-    )
-
     footer_text = models.CharField(_("footer text"), max_length=200, blank=True,
         help_text=_("You may use Twitter markup here, such as a #hashtag or @username."))
     include_replies = models.BooleanField(_("include replies?"), default=False)
@@ -53,11 +48,6 @@ class TwitterSearchItem(ContentItem):
                     "Twitter search syntax</a> is allowed."),
     )
     amount = models.PositiveSmallIntegerField(_("number of results"), default=5)
-
-    widget_id = models.CharField(_("widget id"), max_length=75,
-        help_text=_("See <a href='https://twitter.com/settings/widgets' target='_blank'>"
-                    "https://twitter.com/settings/widgets</a> on how to obtain one."),
-    )
 
     footer_text = models.CharField(_("footer text"), max_length=200, blank=True,
         help_text=_("You may use Twitter markup here, such as a #hashtag or @username."))

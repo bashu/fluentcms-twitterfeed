@@ -41,7 +41,7 @@ setup(
 
     install_requires=[
         'django-fluent-contents>=1.0',
-        'twitter-text-py',
+        'twitter-text>2.0',
     ],
     requires=[
         'Django (>=1.4)',
