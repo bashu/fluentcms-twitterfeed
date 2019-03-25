@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='TwitterRecentEntriesItem',
             fields=[
-                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem')),
+                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem', on_delete=models.CASCADE)),
                 ('title', models.CharField(help_text='You may use Twitter markup here, such as a #hashtag or @username.', max_length=200, verbose_name='title', blank=True)),
                 ('twitter_user', models.CharField(help_text='Display Tweets from a Twitter user specified by @username', max_length=75, verbose_name='@username')),
                 ('amount', models.PositiveSmallIntegerField(default=5, verbose_name='number of results')),
@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='TwitterSearchItem',
             fields=[
-                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem')),
+                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem', on_delete=models.CASCADE)),
                 ('title', models.CharField(help_text='You may use Twitter markup here, such as a #hashtag or @username.', max_length=200, verbose_name='title', blank=True)),
                 ('query', models.CharField(default=b'', help_text="<a href='https://dev.twitter.com/web/embedded-timelines/search' target='_blank'>Twitter search syntax</a> is allowed.", max_length=200, verbose_name='search for')),
                 ('amount', models.PositiveSmallIntegerField(default=5, verbose_name='number of results')),
